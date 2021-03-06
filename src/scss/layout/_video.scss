@@ -35,7 +35,11 @@
         flex-direction: column;
         align-items: flex-start;
         color: $blanco;
-        font-size: 7rem;
+        font-size: 4rem;
+        
+        @include telefono{
+            font-size: 7rem;
+        }
 
 
         span {
@@ -44,4 +48,6 @@
             padding: 1rem 2rem;
         }
     }
+
+    
 }
